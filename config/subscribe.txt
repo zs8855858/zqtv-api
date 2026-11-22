@@ -2,8 +2,14 @@
 # 支持设置UA：https://xxx.com/subscribe.m3u UA="xxx"
 # This is a list of subscription sources, with one subscription address per line
 # Supports setting UA: https://xxx.com/subscribe.m3u UA="xxx"
-
-
+https://wp.kayyw.com/f/QLjxcA/zhiqiangtv.txt
+https://gh-proxy.org/https://raw.githubusercontent.com/807080747/zv/refs/heads/main/sese.txt
+https://live.iptv-free.com/iptv/languages/eng.m3u
+http://iptv.4666888.xyz/FYTV.txt
+https://wget.la/https://raw.githubusercontent.com/807080747/zv/refs/heads/main/suale.txt
+https://wget.la/https://github.com/fafa002/yf2025/blob/main/yiyifafa.txt
+https://wp.kayyw.com/f/8Jbaul/QQ%E7%BE%A41104216934.txt
+https://chuxinya.top/f/1r2Wuq/dszb.txt
 
 
 
