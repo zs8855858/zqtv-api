@@ -119,6 +119,15 @@ jobs:
             --pages-base-url "${{ steps.generate.outputs.pages_base_url }}"
           echo "final_file=$final_file" >> "$GITHUB_OUTPUT"
 
+      - name: Deploy Cloudflare Pages
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          CF_PAGES_PROJECT: ${{ vars.CLOUDFLARE_PAGES_PROJECT }}
+        run: |
+          npx --yes wrangler@4 pages deploy pages-site \
+            --project-name="$CF_PAGES_PROJECT"
+
       - name: Upload GitHub Pages artifact
         uses: actions/upload-pages-artifact@v4
         with:
