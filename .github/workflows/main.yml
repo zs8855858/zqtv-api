@@ -119,22 +119,6 @@ jobs:
             --pages-base-url "${{ steps.generate.outputs.pages_base_url }}"
           echo "final_file=$final_file" >> "$GITHUB_OUTPUT"
 
-      - name: Upload result to Cloudflare KV
-        env:
-          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          CF_KV_NAMESPACE_ID: ${{ vars.CF_KV_NAMESPACE_ID }}
-        run: |
-          if [ ! -f pages-site/result.txt ]; then
-            echo "❌ 找不到 pages-site/result.txt，生成步骤可能失败了"
-            exit 1
-          fi
-          npx --yes wrangler@4 kv key put result.txt \
-            --namespace-id "$CF_KV_NAMESPACE_ID" \
-            --path pages-site/result.txt \
-            --remote
-          echo "✅ 已写入 KV"
-
       - name: Upload GitHub Pages artifact
         uses: actions/upload-pages-artifact@v4
         with:
