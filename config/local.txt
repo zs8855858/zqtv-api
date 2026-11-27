@@ -142,17 +142,17 @@ TVB星河频道,http://120.198.86.251:9901/tsfile/live/1016_1.m3u8?key=txiptv&pl
 风云音乐高清,http://120.196.235.42:9901/tsfile/live/1096_1.m3u8?key=txiptv&playlive=1&authid=0
 
 电影轮播,#genre#
-华数经典电影,http://120.237.39.10:9901/tsfile/live/1041_1.m3u8?key=txiptv&playlive=1&down=1$
-华数经典电影,http://120.196.235.42:9901/tsfile/live/1047_1.m3u8?key=txiptv&playlive=1&authid=0$
-华数经典电影,http://120.196.235.42:9901/tsfile/live/1090_1.m3u8?key=txiptv&playlive=1&authid=0$
-华数经典电影,http://120.198.95.220:9901/tsfile/live/1041_1.m3u8?key=txiptv&playlive=1&down=1$
-华数经典电影,http://120.196.235.42:9901/tsfile/live/1045_1.m3u8?key=txiptv&playlive=1&authid=0$
-华数经典电影,http://120.238.85.131:9901/tsfile/live/1019_1.m3u8$
-天映频道(马来西亚),https://cdn3.indevs.in/stream/live/typd/$
+华数经典电影,http://120.237.39.10:9901/tsfile/live/1041_1.m3u8?key=txiptv&playlive=1&down=1$!
+华数经典电影,http://120.196.235.42:9901/tsfile/live/1047_1.m3u8?key=txiptv&playlive=1&authid=0$!
+华数经典电影,http://120.196.235.42:9901/tsfile/live/1090_1.m3u8?key=txiptv&playlive=1&authid=0$!
+华数经典电影,http://120.198.95.220:9901/tsfile/live/1041_1.m3u8?key=txiptv&playlive=1&down=1$!
+华数经典电影,http://120.196.235.42:9901/tsfile/live/1045_1.m3u8?key=txiptv&playlive=1&authid=0$!
+华数经典电影,http://120.238.85.131:9901/tsfile/live/1019_1.m3u8$!
+天映频道(马来西亚),https://cdn3.indevs.in/stream/live/typd/$!
 天映频道,http://120.237.39.10:9901/tsfile/live/1043_1.m3u8?key=txiptv&playlive=1&down=1
 天映频道,http://120.198.95.220:9901/tsfile/live/1043_1.m3u8?key=txiptv&playlive=1&down=1
 动作电影,http://183.239.248.218:8181/tsfile/live/1047_1.m3u8?key=txiptv&playlive=1&authid=0
-粤喜TV,http://120.198.86.251:9901/tsfile/live/1085_1.m3u8?key=txiptv&playlive=1&authid=0$
+粤喜TV,http://120.198.86.251:9901/tsfile/live/1085_1.m3u8?key=txiptv&playlive=1&authid=0$!
 怀旧剧场高清,http://120.196.235.42:9901/tsfile/live/1098_1.m3u8?key=txiptv&playlive=1&authid=0
 
 央视频道,#genre#
